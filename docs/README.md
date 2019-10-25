@@ -17,6 +17,7 @@
 | [Namespaces per cluster](namespaces-per-cluster.md) | Maximum Namespaces                       | None                                  |
 | [Services per namespace](services-per-namespace.md) | Maximum services per namespace           | None                                  |
 | [FIO I/O test](fio.md)                              | FIO I/O test - stress storage backend    | Privileged Containers, Working storage class |
+| [Concurrent scale-up down](concurrent-scale-up-down.md) | Concurrent App scale up and Scale down | None                                  |
 
 * Baseline job without a tooled cluster just idles a cluster.  The goal is to capture resource consumption over a period of time to characterize resource requirements thus tooling is required. (For now)
 
@@ -53,3 +54,4 @@ Each workload will implement a form of pass/fail criteria in order to flag if th
 | [Namespaces per cluster](namespaces-per-cluster.md) | Yes: Exit code, Test Duration |
 | [Services per namespace](services-per-namespace.md) | Yes: Exit code, Test Duration |
 | [FIO I/O test](fio.md)                              | No                            |
+| [Concurrent scale-up down](concurrent-scale-up-down.md)| Yes: Exit code                |
