@@ -2,7 +2,9 @@
 
 The Taints and Tolerations workload playbook is `workloads/taints-tolerations.yml` and will run the Taints and Tolerations  workload on your cluster.
 
-The Taints and Tolerations workload's purpose is to validate if the OpenShift cluster can deploy 130 pause-pods per tainted worker node.
+The Taints and Tolerations workload's purpose is to validate if the OpenShift cluster can deploy 130 hello-pods with memory and CPU requests per tainted worker node.
+
+An OCP with 3 masters and 3 worker nodes is required.
 
 Running from CLI:
 
